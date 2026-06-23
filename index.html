@@ -114,7 +114,7 @@
     </div>
     <div class="field">
       <label>Website</label>
-      <input type="text" id="website" placeholder="newfound.global" value="newfound.global" oninput="render()">
+      <input type="text" id="website" placeholder="www.newfound.global" value="www.newfound.global" oninput="render()">
     </div>
   </div>
 
@@ -146,7 +146,7 @@ function getValues() {
     linkedinName: document.getElementById('linkedinName').value || 'Name',
     ctaText:      document.getElementById('ctaText').value || 'Download our latest report',
     ctaLink:      document.getElementById('ctaLink').value || '#',
-    website:      document.getElementById('website').value || 'newfound.global',
+    website:      document.getElementById('website').value || 'www.newfound.global',
   };
 }
 
@@ -322,7 +322,7 @@ function resetForm() {
   document.getElementById('linkedinName').value = 'Amy Gallagher';
   document.getElementById('ctaText').value = 'Download our latest report';
   document.getElementById('ctaLink').value = 'https://www.newfound.global/breakingnewground';
-  document.getElementById('website').value = 'newfound.global';
+  document.getElementById('website').value = 'www.newfound.global';
   render();
 }
 
